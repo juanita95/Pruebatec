@@ -1,0 +1,45 @@
+<div class="container2">
+  <p>A continuación se encontrará una base de datos de nuestros usuarios y el estado actual de
+    sus facturas
+  </p>
+  <p>Para cambiar el estado actual de la factura de cada usuario oprima en el boton
+    enviar, y asi, se le informará al usuario que el estado de su factura cambiará
+  </p>
+  <table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Usuario</th>
+        <th scope="col">edad</th>
+        <th scope="col">Correo electrónico</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Enviar recordatorio</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let pd of service.list">
+      <td>
+        {{pd.name}}
+      </td>
+      <td>
+        {{pd.age}}
+      </td>
+      <td>
+        {{pd.email}}
+      </td>
+      <td>
+        {{pd.status}}
+      </td>
+      <td>
+        <button *ngIf="pd.status != 'Desactivado'" (click)="send(pd.Id)" class="btn-primary">
+          Enviar correo
+        </button>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>

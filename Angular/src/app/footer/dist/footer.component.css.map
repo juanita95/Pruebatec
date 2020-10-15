@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["footer.component.sass"],"sourcesContent":[".foot\r\n  height: auto\r\n  .redes\r\n    height: 50px\r\n    margin: auto\r\n    a\r\n      width: 40px\r\n      height: 40px\r\n      font-size: 40px\r\n      color: white\r\n      margin: 20px\r\n"],"file":"footer.component.css"}

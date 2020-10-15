@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["facturas.component.sass"],"sourcesContent":[".container2\r\n  width: 80%\r\n  margin: auto\r\n  margin-top: 40px\r\n  p\r\n    text-align: center\r\n    margin-bottom: 20px\r\n"],"file":"facturas.component.css"}

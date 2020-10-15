@@ -1,0 +1,23 @@
+<div class="responsive">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        website
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarc">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarc">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" [routerLink]="['inicio']" routerLinkActive="router-link-active" >inicio</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['¿Quienes somos?']" routerLinkActive="router-link-active" >¿Quienes somos?</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['facturas']" routerLinkActive="router-link-active" >Facturas</a></li>
+        </ul>
+        <form class="form-inline">
+          <input type="text" class="form-control" placeholder="search">
+          <button class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>

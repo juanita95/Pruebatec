@@ -1,0 +1,1 @@
+{"version":3,"sources":["Users.ts"],"names":[],"mappings":";;AAAA;IAAA;IAMA,CAAC;IAAD,YAAC;AAAD,CANA,AAMC,IAAA;AANY,sBAAK","file":"Users.js","sourcesContent":["export class Users {\r\n  Id: number;\r\n  name: string;\r\n  age: number;\r\n  email: string;\r\n  status: string\r\n}\r\n"]}

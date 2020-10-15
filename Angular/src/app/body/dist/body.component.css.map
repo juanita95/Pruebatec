@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["body.component.sass"],"sourcesContent":[".carousel\r\n  width: 100%\r\n  img\r\n    width: 100%\r\n    border-bottom:  #c0392b 3px solid\r\n\r\n"],"file":"body.component.css"}
